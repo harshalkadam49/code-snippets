@@ -2,9 +2,9 @@
 // import '@/styles/globals.css'
 // import "@/styles/tabChange.css";
 // import "@/styles/detailsList.css";
-// import "@/styles/dropdownmenu.css";
+import "@/styles/dropdownmenu.css";
 // import "@/styles/credButton.css";
-import "@/styles/showOnHover.css";
+// import "@/styles/showOnHover.css";
 
 
 

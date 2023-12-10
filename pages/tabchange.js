@@ -1,8 +1,18 @@
 import { useState } from "react";
-import { initialTabs as tabs } from "./ingredients";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function App() {
+  const allIngredients = [
+    { icon: "🍅", label: "Tomato" },
+    { icon: "🥬", label: "Lettuce" },
+    { icon: "🧀", label: "Cheese" },
+    { icon: "🥕", label: "Carrot" },
+    { icon: "🍌", label: "Banana" },
+    { icon: "🫐", label: "Blueberries" },
+    { icon: "🥂", label: "Champers?" },
+  ];
+  const [tomato, lettuce, cheese] = allIngredients;
+  const tabs = [tomato, lettuce, cheese];
   const [selectedTab, setSelectedTab] = useState(tabs[0]);
 
   return (
